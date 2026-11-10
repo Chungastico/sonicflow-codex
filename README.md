@@ -1,3 +1,5 @@
+> **Rama de audífonos reconstruida:** incluye los cambios guardados y una reconstrucción del detector de micrófono. No se ha demostrado que sea idéntica al binario guardado ni se ha validado nuevamente con todos los dispositivos. La versión actual para bocinas está en la rama `main`.
+
 # SonicFlow Codex: mezcla de música y voz
 
 Adaptación experimental de [SonicFlow](https://github.com/altuzar/sonicflow) para macOS. Reduce Spotify mientras se detecta voz de Codex o habla en el micrófono y recupera el volumen de forma gradual. El análisis de voz se hace localmente mediante SoundAnalysis; el proyecto no incluye grabaciones ni perfiles de voz.

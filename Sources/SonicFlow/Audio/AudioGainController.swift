@@ -152,7 +152,7 @@ final class AudioGainController {
                 try? await Task.sleep(for: .milliseconds(100))
                 if Task.isCancelled { break }
                 if capture.voiceLevel > 0.002 { lastAudible = Date() }
-                let audible = Date().timeIntervalSince(lastAudible) < 1.0
+                let audible = Date().timeIntervalSince(lastAudible) < 2.0
                 if audible != previous {
                     previous = audible
                     self?.onVoiceActivityChange?(audible)
