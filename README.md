@@ -5,7 +5,7 @@ Adaptación experimental de [SonicFlow](https://github.com/altuzar/sonicflow) pa
 ## Estado y variantes
 
 - **Bocinas:** versión actual probada por el usuario con Spotify y Codex. El clasificador puede confundir música con voz o perder voz con música fuerte; el ajuste necesita más pruebas.
-- **Audífonos:** se comprobó un prototipo anterior con ambas voces. La copia binaria se conserva localmente en el equipo original; este repositorio contiene la implementación actual, no una reproducción exacta de ese prototipo anterior.
+- **Audífonos:** se comprobó un prototipo anterior con ambas voces. La copia binaria se conserva en el equipo original. En la rama `audifonos-reconstruccion` hay una reconstrucción del código anterior, que todavía debe probarse y no se ha confirmado idéntica al binario guardado.
 - No se ha validado para todas las aplicaciones, dispositivos, canciones o configuraciones de audio.
 
 ## Instalación y uso
